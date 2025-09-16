@@ -24,13 +24,13 @@ echo "Disk Usage: ${DISK}%"
 
 # Alerts
 if [ "$CPU" -gt "$CPU_THRESHOLD" ]; then
-    echo "⚠ ALERT: CPU usage is high!"
+    echo "ALERT: CPU usage is high!"
 fi
 
 if [ "$MEM" -gt "$MEM_THRESHOLD" ]; then
-    echo "⚠ ALERT: Memory usage is high!"
+    echo "ALERT: Memory usage is high!"
 fi
 
 if [ "$DISK" -gt "$DISK_THRESHOLD" ]; then
-    echo "⚠ ALERT: Disk usage is high!"
+    echo "ALERT: Disk usage is high!"
 fi
